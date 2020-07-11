@@ -7,4 +7,4 @@
 
 > "gradlew eclipse"
 
-> Copy content of **forge-1.12.2-14.23.1.2555-mdk**
+~~> Copy content of **forge-1.12.2-14.23.1.2555-mdk**~~
