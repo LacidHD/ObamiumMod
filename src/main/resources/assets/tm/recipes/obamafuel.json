@@ -1,0 +1,30 @@
+ {
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "RRR",
+        "ROR",
+        "RRR"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "minecraft:coal_block"
+        },
+        
+         "O":
+        {
+            "item": "tm:obamium_block"
+        }
+    },
+        
+    "result":
+    {
+        "item": "tm:obamafuel",
+        "count": 1
+    }
+}
+    

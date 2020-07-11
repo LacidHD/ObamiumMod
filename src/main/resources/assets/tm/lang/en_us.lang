@@ -1,0 +1,9 @@
+//items
+item.obamium.name=Obamaprism
+item.obamasphere.name=Obamasphere
+item.obamafuel.name=Obamafuel(WIP)
+item.obamium_nugget.name=Nugget of Obamium
+
+//blocks
+tile.obamium_block.name=Block of Obamium
+tile.obamium_ore.name=Ore of Obamium

@@ -1,0 +1,17 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "tm:Obamium"
+    }
+    ],
+        "result":
+    {
+        "item": "tm:obamium_nugget",
+        "count": 9
+    }
+}
+    

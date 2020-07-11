@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "OOO",
+        "OIO",
+        "OOO"
+    ],
+    
+    "key":
+    {
+        "O":
+        {
+          "item": "tm:obamium"
+
+        },
+    
+        "I":
+        {
+          "item": "tm:obamasphere"
+
+        }
+    
+    
+    },
+    
+    "result":
+    {
+        "item": "tm:obamium_block",
+        "count": 1
+    }
+}

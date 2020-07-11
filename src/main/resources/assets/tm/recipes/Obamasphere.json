@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "ODO",
+        "DND",
+        "ODO"
+    ],
+    
+    "key":
+    {
+      "N": {
+        "item": "minecraft:nether_star"
+      },
+
+      "D": {
+        "item": "minecraft:diamond"
+      },
+
+      "O": {
+        "item": "tm:obamium"
+      }
+    
+    
+    },
+    
+    "result":
+    {
+        "item": "tm:obamasphere",
+        "count": 8
+    }
+}

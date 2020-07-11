@@ -1,0 +1,69 @@
+
+/*item:
+{
+   "parent": "item/generated",
+   "textures": {
+       "layer0": "tm:items/item"
+   }
+}
+
+blockstate:
+{
+    "variants": {
+        "normal": { "model": "tm:ruby_block" }
+    }
+}
+
+Models/block:
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "tm:blocks/ruby_block"
+   }
+}
+
+Model/item/block
+{
+   "parent": "tm:block/ruby_block"
+}
+
+shapeless recipe
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "modid:object"
+    },
+
+    {
+      "item": "modid:object"
+    }
+    
+ shaped recipe
+ {
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "RRR",
+        "RRR",
+        "RRR"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "modid:object"
+        }
+    },
+    
+    "result":
+    {
+        "item": "modid:object",
+        "count": 1
+    }
+}
