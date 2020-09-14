@@ -56,9 +56,18 @@ public class Main {
 		
 		public ItemStack getTabIconItem() {
 			return new ItemStack(ModItems.OBAMIUM_SWORD);
-		}
-	};
+			}
+		};
+		
+		public static CreativeTabs tabObamiumElectricStuff = new CreativeTabs("tabobamiumelectricstuff") {
+			
+			public ItemStack getTabIconItem() {
+				return new ItemStack(ModItems.COPPER_COIL);
+			}
+		};
+	}
 
+		
 	
-}
+
 	

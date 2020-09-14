@@ -16,6 +16,7 @@ tile.pure_meme_block.name=Refined Block of Memes
 //creative tabs
 itemGroup.tabobamium=Obamium Stuff
 itemGroup.tabobamiumta=Obamium Tools and Armor
+itemGroup.tabobamiumelectricstuff=Obamium Electrics and Machines(WIP)
 
 
 //tools
@@ -24,15 +25,24 @@ item.obamium_pickaxe.name=The almighty Obama-pickaxe
 item.obamium_axe.name=The almighty Obama-axe
 item.obamium_hoe.name=The almighty Obama-hoe
 item.obamium_shovel.name=The almighty Obama-shovel
+
 item.brobama_sword.name=The goddamn Brobama sword
 item.walter.name=Walter
-item.blob_pickaxe.name= BlobPickaxe
+item.blob_pickaxe.name=BlobPickaxe
+item.meme_axe.name=I dont have a name nor an Image send me uncopyrighted suggestions pls
+item.meme_hoe.name=I dont have a name nor an Image send me uncopyrighted suggestions pls
+
 
 //armor
 item.obamium_helmet.name=The almighty Obama-helmet
 item.obamium_chestplate.name=The almighty Obama-chestplate
 item.obamium_leggings.name=The almighty Obama-leggings
 item.obamium_boots.name=The almighty Obama-boots
+
+item.memers_helmet.name=The Memers Helmet
+item.memers_chestplate.name=The Memers Chesplate
+item.memers_leggings.name=The Memers Leggings
+item.memers_boots.name=The Memers Boots
 
 //inventories
 container.refinery=Refinery
