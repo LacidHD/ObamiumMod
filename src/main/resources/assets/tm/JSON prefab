@@ -1,9 +1,25 @@
 
-/*item:
+/*items:
 {
    "parent": "item/generated",
    "textures": {
        "layer0": "tm:items/item"
+   }
+}
+
+tools
+{
+   "parent": "item/handheld",
+   "textures": {
+       "layer0": "tm:items/obamium_shovel"
+}
+}
+
+armor
+{
+   "parent": "item/generated",
+   "textures": {
+       "layer0": "tm:items/obamium_helmet"
    }
 }
 

@@ -3,7 +3,7 @@ package com.Lacid_HD.TestMod.blocks;
 import com.Lacid_HD.TestMod.Main;
 import com.Lacid_HD.TestMod.init.ModBlocks;
 import com.Lacid_HD.TestMod.init.ModItems;
-import com.Lacid_HD.TestMod.util.IHasModel;
+import com.Lacid_HD.TestMod.util.interfaces.IHasModel;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -18,7 +18,7 @@ public class BlockBase extends Block implements IHasModel
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+		setCreativeTab(Main.tabObamium);
 		
 		ModBlocks.BLOCKS.add(this);
 		ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
@@ -31,6 +31,7 @@ public class BlockBase extends Block implements IHasModel
 	{
 	Main.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");	
 		
-	}
+	
 
+}
 }

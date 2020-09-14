@@ -1,0 +1,29 @@
+ {
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "MMM",
+        " R ",
+        " R "
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "tm:pure_meme_block"
+        },
+        
+        "R":
+        {
+            "item": "tm:meme_rod"
+        }
+    },
+    
+    "result":
+    {
+        "item": "tm:blob_pickaxe",
+        "count": 1
+    }
+}

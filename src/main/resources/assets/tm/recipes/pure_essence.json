@@ -1,0 +1,30 @@
+ {
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "EEE",
+        "EDE",
+        "EEE"
+    ],
+    
+    "key":
+    {
+        "E":
+        {
+            "item": "tm:meme_essence"
+        },
+       
+        "D":
+        {
+            "item": "minecraft:diamond"
+        }
+   
+    },
+    
+    "result":
+    {
+        "item": "tm:pure_essence",
+        "count": 1
+    }
+}

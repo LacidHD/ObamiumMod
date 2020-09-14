@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " B ",
+        " B ",
+        " F "
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "tm:bronana"
+        },
+    
+    
+        "F":
+        {
+            "item": "minecraft:fish"
+        }
+    },
+    
+    "result":
+    {
+        "item": "tm:brobama_sword",
+        "count": 1
+    }
+}

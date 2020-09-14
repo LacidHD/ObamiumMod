@@ -1,0 +1,10 @@
+{
+    "parent": "block/orientable",
+    "textures":
+    {
+        "up":"tm:blocks/refinery_front_off",
+        "down":"tm:blocks/refinery_front_off",
+        "north":"tm:blocks/refinery_front_off",
+        "up":"tm:blocks/refinery_front_off",
+        "up":"tm:blocks/refinery_front_off",
+        "up":"tm:blocks/refinery_front_off",

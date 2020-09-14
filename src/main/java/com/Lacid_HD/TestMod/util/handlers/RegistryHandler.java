@@ -1,8 +1,11 @@
 package com.Lacid_HD.TestMod.util.handlers;
 
+//import com.Lacid_HD.TestMod.init.BiomeInit;
 import com.Lacid_HD.TestMod.init.ModBlocks;
 import com.Lacid_HD.TestMod.init.ModItems;
-import com.Lacid_HD.TestMod.util.IHasModel;
+import com.Lacid_HD.TestMod.util.compat.OreDictionaryCompat;
+import com.Lacid_HD.TestMod.util.interfaces.IHasModel;
+import com.Lacid_HD.TestMod.world.gen.WorldGenCustomStructures;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -10,6 +13,7 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @EventBusSubscriber
 public class RegistryHandler 
@@ -25,6 +29,12 @@ public class RegistryHandler
 	{
 		event.getRegistry().registerAll(ModBlocks.BLOCKS.toArray(new Block [0]));
 	}
+	
+	public static void otherRegistries() 
+	{
+		//BiomeInit.registerBiomes();
+	}
+	
 	
 	@SubscribeEvent
 	public static void onModelRegister(ModelRegistryEvent event) 
@@ -46,5 +56,14 @@ public class RegistryHandler
 		}
 	}
 	
+	public static void preInitRegistries() 
+	{
+		GameRegistry.registerWorldGenerator(new WorldGenCustomStructures(), 0);
+	}
+	
+	public static void initRegistries() 
+	{
+		OreDictionaryCompat.registerOres();
+	}
 	
 }

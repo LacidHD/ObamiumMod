@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "OO ",
+        " S ",
+        " S "
+    ],
+    
+    "key":
+    {
+        "S":
+        {
+            "item": "minecraft:stick"
+        },
+    
+     
+        "O":
+        {
+            "item": "tm:obamium_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "tm:obamium_hoe",
+        "count": 1
+    }
+}

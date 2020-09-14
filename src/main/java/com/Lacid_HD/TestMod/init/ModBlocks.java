@@ -4,9 +4,14 @@ import java.util.ArrayList;
 
 
 
+
 import com.Lacid_HD.TestMod.blocks.BlockBase;
+import com.Lacid_HD.TestMod.blocks.CopperOre;
+import com.Lacid_HD.TestMod.blocks.MemeBlock;
+import com.Lacid_HD.TestMod.blocks.MemeOre;
 import com.Lacid_HD.TestMod.blocks.ObamiumBlock;
 import com.Lacid_HD.TestMod.blocks.ObamiumOre;
+import com.Lacid_HD.TestMod.blocks.machines.refinery.BlockRefinery;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -16,6 +21,18 @@ public class ModBlocks
 {
 	public static final List<Block> BLOCKS = new ArrayList<Block>();
 	
+	
+	//blocks
 	public static final Block OBAMIUM_BLOCK = new ObamiumBlock("obamium_block", Material.IRON);
 	public static final Block OBAMIUM_ORE = new ObamiumOre("obamium_ore", Material.GROUND);
-}
+	public static final Block MEME_ORE = new MemeOre("meme_ore", Material.GROUND);
+	public static final Block MEME_BLOCK = new MemeBlock("meme_block", Material.GROUND);
+	public static final Block PURE_MEME_BLOCK = new MemeBlock("pure_meme_block", Material.GROUND);
+	public static final Block COPPER_ORE = new CopperOre("copper_ore", Material.GROUND);
+	
+	
+	
+	//machines
+	public static final Block REFINERY = new BlockRefinery("refinery");
+	
+}	

@@ -13,7 +13,7 @@ public class ObamiumBlock extends BlockBase
 	
 		setSoundType(SoundType.METAL);
 		setHardness(100.0F);
-		setResistance(4000000.0F);
+		setResistance(400000000.0F);
 		setHarvestLevel("pickaxe", 3);
 		setLightLevel(100.0F);
 		

@@ -3,7 +3,36 @@ item.obamium.name=Obamaprism
 item.obamasphere.name=Obamasphere
 item.obamafuel.name=Obamafuel(WIP)
 item.obamium_nugget.name=Nugget of Obamium
+item.meme_essence.name=Essence of Memes
+item.pure_essence.name=Refined Essence of Memes
 
 //blocks
 tile.obamium_block.name=Block of Obamium
 tile.obamium_ore.name=Ore of Obamium
+tile.meme_ore.name=Ore of Memes
+tile.meme_block.name=Block of Memes
+tile.pure_meme_block.name=Refined Block of Memes
+
+//creative tabs
+itemGroup.tabobamium=Obamium Stuff
+itemGroup.tabobamiumta=Obamium Tools and Armor
+
+
+//tools
+item.obamium_sword.name=The almighty Obama-sword
+item.obamium_pickaxe.name=The almighty Obama-pickaxe
+item.obamium_axe.name=The almighty Obama-axe
+item.obamium_hoe.name=The almighty Obama-hoe
+item.obamium_shovel.name=The almighty Obama-shovel
+item.brobama_sword.name=The goddamn Brobama sword
+item.walter.name=Walter
+item.blob_pickaxe.name= BlobPickaxe
+
+//armor
+item.obamium_helmet.name=The almighty Obama-helmet
+item.obamium_chestplate.name=The almighty Obama-chestplate
+item.obamium_leggings.name=The almighty Obama-leggings
+item.obamium_boots.name=The almighty Obama-boots
+
+//inventories
+container.refinery=Refinery

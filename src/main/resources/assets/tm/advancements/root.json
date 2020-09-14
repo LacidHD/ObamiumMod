@@ -1,0 +1,14 @@
+{
+    "display":{
+        "icon": {
+            "item" : "minecraft:furnace"
+         },
+         "title": {
+             "translate": "advancements.smelting.root.title"
+             },
+         "description": "advancements.smelting.root.description"
+         },
+         "background": "testmod:textures/blocks/obamium_block.png"
+     },
+     "criteria": {
+        "

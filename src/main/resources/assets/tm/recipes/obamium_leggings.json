@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "OOO",
+        "O O",
+        "O O"
+    ],
+    
+    "key":
+    {
+    
+     
+        "O":
+        {
+            "item": "tm:obamium_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "tm:obamium_leggings",
+        "count": 1
+    }
+}

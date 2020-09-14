@@ -2,7 +2,7 @@ package com.Lacid_HD.TestMod.items;
 
 import com.Lacid_HD.TestMod.Main;
 import com.Lacid_HD.TestMod.init.ModItems;
-import com.Lacid_HD.TestMod.util.IHasModel;
+import com.Lacid_HD.TestMod.util.interfaces.IHasModel;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -13,7 +13,7 @@ public class ItemBase extends Item implements IHasModel{
 	{
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.MATERIALS);
+		setCreativeTab(Main.tabObamium);
 		
 		ModItems.ITEMS.add(this);
 	}
