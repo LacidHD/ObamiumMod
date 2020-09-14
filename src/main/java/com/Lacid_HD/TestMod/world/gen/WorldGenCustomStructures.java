@@ -1,3 +1,4 @@
+/*
 package com.Lacid_HD.TestMod.world.gen;
 
 import java.util.ArrayList;
@@ -22,7 +23,7 @@ import net.minecraftforge.fml.common.IWorldGenerator;
 
 public class WorldGenCustomStructures implements IWorldGenerator
 {
-	public static final WorldGenStructure WHITEHOUSE = new WorldGenStructure("whitehouse");
+	public static final WorldGenStructure SMALL_HOUSE = new WorldGenStructure("small_house");
 	
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider)
@@ -37,7 +38,7 @@ public class WorldGenCustomStructures implements IWorldGenerator
 			
 		case 0:
 			
-			generateStructure(WHITEHOUSE, world, random, chunkX, chunkZ, 1, Blocks.GRASS, BiomePlains.class);
+			generateStructure(SMALL_HOUSE, world, random, chunkX, chunkZ, 1, Blocks.SAND, BiomeDesert.class);
 			
 			break;
 			
@@ -46,7 +47,7 @@ public class WorldGenCustomStructures implements IWorldGenerator
 	}
 
 
-	private void generateStructure(WorldGenStructure generator, World world, Random random, int chunkX, int chunkZ, int chance, Block topBlock, Class<BiomePlains> class1)
+	private void generateStructure(WorldGenStructure generator, World world, Random random, int chunkX, int chunkZ, int chance, Block topBlock, Class<BiomeDesert> class1)
 	{
 		ArrayList<Class<?>> classesList = new ArrayList<Class<?>>(Arrays.asList(class1));
 		
@@ -57,7 +58,7 @@ public class WorldGenCustomStructures implements IWorldGenerator
 		
 		Class<?> biome = world.provider.getBiomeForCoords(pos).getClass();
 		
-		if(world.getWorldType() != WorldType.FLAT) {
+		
 		
 			if(classesList.contains(biome)) 
 			{
@@ -67,7 +68,7 @@ public class WorldGenCustomStructures implements IWorldGenerator
 				}
 			}
 		}
-	}
+	
 	
 	private static int calculateGenerationHight(World world, int x, int z, Block topBlock) 
 	{
@@ -84,7 +85,7 @@ public class WorldGenCustomStructures implements IWorldGenerator
 }
 
 
-
+*/
 
 
 

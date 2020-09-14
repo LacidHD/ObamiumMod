@@ -6,6 +6,7 @@ import com.Lacid_HD.TestMod.init.ModItems;
 import com.Lacid_HD.TestMod.util.compat.OreDictionaryCompat;
 import com.Lacid_HD.TestMod.util.interfaces.IHasModel;
 import com.Lacid_HD.TestMod.world.gen.WorldGenCustomStructures;
+import com.Lacid_HD.TestMod.world.gen.smallhouseWorldGen;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -58,7 +59,7 @@ public class RegistryHandler
 	
 	public static void preInitRegistries() 
 	{
-		GameRegistry.registerWorldGenerator(new WorldGenCustomStructures(), 0);
+		GameRegistry.registerWorldGenerator(new smallhouseWorldGen(), 0);
 	}
 	
 	public static void initRegistries() 
