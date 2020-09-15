@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.Lacid_HD.TestMod.items.ItemBase;
+import com.Lacid_HD.TestMod.items.ItemBaseElectricStuff;
 import com.Lacid_HD.TestMod.items.ItemBaseStuff;
 import com.Lacid_HD.TestMod.items.armor.ArmorBase;
 import com.Lacid_HD.TestMod.items.tools.ToolAxe;
@@ -36,7 +37,7 @@ public class ModItems
   //materials
   public static final ToolMaterial MATERIAL_OBAMIUM = EnumHelper.addToolMaterial("material_obamium", 3, 911, 20, 50, 10);
   public static final ToolMaterial MATERIAL_MEMES = EnumHelper.addToolMaterial("material_memes", 3, 690, 10, 20, 10);
-  public static final ToolMaterial MATERIAL_COPPER = EnumHelper.addToolMaterial("material_copper", 2, 250, 3, 7, 5);
+  public static final ToolMaterial MATERIAL_COPPER = EnumHelper.addToolMaterial("material_copper", 2, 191, 5.0F, 2.0F, 3);
   public static final ArmorMaterial ARMOR_MATERIAL_OBAMIUM = EnumHelper.addArmorMaterial("armor_material_obamium", Reference.MOD_ID + ":obamium", 25, new int[ ] {100, 150, 200, 100} , 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F);
   public static final ArmorMaterial ARMOR_MATERIAL_MEMES = EnumHelper.addArmorMaterial("armor_material_memes", Reference.MOD_ID + ":memes", 25, new int[ ] {20, 150, 200, 100} , 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F);
    
@@ -48,17 +49,18 @@ public class ModItems
   public static final Item MEME_ESSENCE = new ItemBaseStuff("meme_essence");
   public static final Item PURE_ESSENCE = new ItemBaseStuff("pure_essence");
   public static final Item COPPER_INGOT = new ItemBaseStuff("copper_ingot");
-  public static final Item MACHINE_CASING = new ItemBaseStuff("machine_casing");
   
   
-  //electric stuff
- public static final Item ELECTRIC_UNIT = new ItemBase("electric_unit");
- public static final Item MAGNET = new ItemBase("magnet");
- public static final Item COPPER_COIL = new ItemBase("copper_coil");
- public static final Item ELECTRIC_MOTOR = new ItemBase("electric_motor");
- public static final Item GENERATOR_UNIT = new ItemBase("generator_unit");
- public static final Item ROTOR = new ItemBase("rotor");
- public static final Item STATOR = new ItemBase("stator");
+  
+  //electric stuff / machines
+ public static final Item ELECTRIC_UNIT = new ItemBaseElectricStuff("electric_unit"); 
+ public static final Item MAGNET = new ItemBaseElectricStuff("magnet");
+ public static final Item COPPER_COIL = new ItemBaseElectricStuff("copper_coil");
+ public static final Item ELECTRIC_MOTOR = new ItemBaseElectricStuff("electric_motor");
+ public static final Item GENERATOR_UNIT = new ItemBaseElectricStuff("generator_unit");
+ public static final Item ROTOR = new ItemBaseElectricStuff("rotor");
+ public static final Item STATOR = new ItemBaseElectricStuff("stator");
+ public static final Item MACHINE_CASING = new ItemBaseElectricStuff("machine_casing");
  
   
 

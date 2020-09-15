@@ -1,10 +1,20 @@
-//items
+//basic stuff
 item.obamium.name=Obamaprism
 item.obamasphere.name=Obamasphere
 item.obamafuel.name=Obamafuel(WIP)
 item.obamium_nugget.name=Nugget of Obamium
 item.meme_essence.name=Essence of Memes
 item.pure_essence.name=Refined Essence of Memes
+
+//electric shit
+item.electric_unit.name=Electric Unit
+item.magnet.name=Magnet
+item.copper_coil.name=Copper Coil
+item.electric_motor.name=Electric Motor
+item.generator_unit.name=Basic Generator Unit
+item.rotor.name=Rotor
+item.stator.name=Stator
+item.machine_casing.name=Machine Casing
 
 //blocks
 tile.obamium_block.name=Block of Obamium
@@ -29,9 +39,14 @@ item.obamium_shovel.name=The almighty Obama-shovel
 item.brobama_sword.name=The goddamn Brobama sword
 item.walter.name=Walter
 item.blob_pickaxe.name=BlobPickaxe
-item.meme_axe.name=I dont have a name nor an Image send me uncopyrighted suggestions pls
-item.meme_hoe.name=I dont have a name nor an Image send me uncopyrighted suggestions pls
+item.meme_axe.name=I dont have a name nor an Image send me suggestions pls
+item.meme_hoe.name=I dont have a name nor an Image send me suggestions pls
 
+item.copper_sword.name=Copper sword
+item.copper_pickaxe.name=Copper pickaxe
+item.copper_axe.name=Copper axe
+item.copper_hoe.name=Copper hoe
+item.copper_shovel.name=Copper shovel
 
 //armor
 item.obamium_helmet.name=The almighty Obama-helmet
@@ -45,4 +60,4 @@ item.memers_leggings.name=The Memers Leggings
 item.memers_boots.name=The Memers Boots
 
 //inventories
-container.refinery=Refinery
+container.refinery.name=Refinery
