@@ -79,22 +79,23 @@ public class ModItems
   public static final ItemAxe MEME_AXE = new ToolAxe("meme_axe", MATERIAL_MEMES);
   public static final ItemHoe MEME_HOE = new ToolHoe("meme_hoe", MATERIAL_MEMES);
   
-  public static final ItemSword COPPER_SWORD = new ToolBrobamaSword("brobama_sword", MATERIAL_MEMES);
-  public static final ItemSpade COPPER_SHOVEL = new ToolWalter("copper_shovel", MATERIAL_MEMES);
-  public static final ItemPickaxe COPPER_PICKAXE = new ToolBlobPickaxe("copper_pickaxe", MATERIAL_MEMES);
-  public static final ItemAxe COPPER_AXE = new ToolAxe("copper_axe", MATERIAL_MEMES);
-  public static final ItemHoe COPPER_HOE = new ToolHoe("copper_hoe", MATERIAL_MEMES);
+  public static final ItemSword COPPER_SWORD = new ToolSword("copper_sword", MATERIAL_COPPER);
+  public static final ItemSpade COPPER_SHOVEL = new ToolSpade("copper_shovel", MATERIAL_COPPER);
+  public static final ItemPickaxe COPPER_PICKAXE = new ToolPickaxe("copper_pickaxe", MATERIAL_COPPER);
+  public static final ItemAxe COPPER_AXE = new ToolAxe("copper_axe", MATERIAL_COPPER);
+  public static final ItemHoe COPPER_HOE = new ToolHoe("copper_hoe", MATERIAL_COPPER);
+  
   
   
   //armor
   public static final Item OBAMIUM_HELMET = new ArmorBase("obamium_helmet", ARMOR_MATERIAL_OBAMIUM, 1, EntityEquipmentSlot.HEAD);
   public static final Item OBAMIUM_CHESTPLATE = new ArmorBase("obamium_chestplate", ARMOR_MATERIAL_OBAMIUM, 1, EntityEquipmentSlot.CHEST);
-  public static final Item OBAMIUM_LEGGINGSS = new ArmorBase("obamium_leggings", ARMOR_MATERIAL_OBAMIUM, 2, EntityEquipmentSlot.LEGS);
+  public static final Item OBAMIUM_LEGGINGS = new ArmorBase("obamium_leggings", ARMOR_MATERIAL_OBAMIUM, 2, EntityEquipmentSlot.LEGS);
   public static final Item OBAMIUM_BOOTS = new ArmorBase("obamium_boots", ARMOR_MATERIAL_OBAMIUM, 1, EntityEquipmentSlot.FEET);
   
   public static final Item MEMERS_HELMET = new ArmorBase("memers_helmet", ARMOR_MATERIAL_MEMES, 1, EntityEquipmentSlot.HEAD);
   public static final Item MEMERS_CHESTPLATE = new ArmorBase("memers_chestplate", ARMOR_MATERIAL_MEMES, 1, EntityEquipmentSlot.CHEST);
-  public static final Item MEMERS_LEGGINGSS = new ArmorBase("memers_leggings", ARMOR_MATERIAL_MEMES, 2, EntityEquipmentSlot.LEGS);
+  public static final Item MEMERS_LEGGINGS = new ArmorBase("memers_leggings", ARMOR_MATERIAL_MEMES, 2, EntityEquipmentSlot.LEGS);
   public static final Item MEMERS_BOOTS = new ArmorBase("memers_boots", ARMOR_MATERIAL_MEMES, 1, EntityEquipmentSlot.FEET);
   
   

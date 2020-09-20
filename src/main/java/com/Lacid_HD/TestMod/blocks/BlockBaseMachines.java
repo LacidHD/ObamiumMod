@@ -4,6 +4,7 @@ import com.Lacid_HD.TestMod.Main;
 import com.Lacid_HD.TestMod.init.ModBlocks;
 import com.Lacid_HD.TestMod.init.ModItems;
 import com.Lacid_HD.TestMod.util.interfaces.IHasModel;
+import com.Lacid_HD.TestMod.proxy.CommonProxy;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -30,8 +31,5 @@ public class BlockBaseMachines extends Block implements IHasModel
 	public void registerModels() 
 	{
 	Main.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");	
-		
-	
-
-}
+	}
 }

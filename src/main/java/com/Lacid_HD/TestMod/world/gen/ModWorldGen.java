@@ -31,7 +31,7 @@ public class ModWorldGen implements IWorldGenerator
 	{
 		generateOre(ModBlocks.OBAMIUM_ORE.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 16, 64, random.nextInt(5) + 1, 5);
 		generateOre(ModBlocks.MEME_ORE.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 32, 64, random.nextInt(5) + 1, 7);
-		generateOre(ModBlocks.MEME_ORE.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 64, 64, random.nextInt(5) + 1, 20);
+		generateOre(ModBlocks.COPPER_ORE.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 64, 64, random.nextInt(5) + 1, 20);
 	}
 	
 	private void generateOre(IBlockState ore, World world, Random random, int x, int z, int minY, int maxY, int size, int chances) 
@@ -46,6 +46,8 @@ public class ModWorldGen implements IWorldGenerator
 		generator.generate(world, random, pos);
 		}
 	}
+	
+	/*
 	public static boolean canSpawnHere(Template template, World world, BlockPos posAboveGround)
 	{
 		int zwidth = template.getSize().getZ();
@@ -59,6 +61,7 @@ public class ModWorldGen implements IWorldGenerator
 		return posAboveGround.getY() > 31 && corner1 && corner2;
 	}
 	
+	
 	public static boolean isCornerValid(World world, BlockPos pos)
 	{
 		int variation = 3;
@@ -70,7 +73,6 @@ public class ModWorldGen implements IWorldGenerator
 		return false;
 	}
 	
-
 	public static int getGroundFromAbove(World world, int x, int z)
 	{
 		int y = 255;
@@ -83,4 +85,6 @@ public class ModWorldGen implements IWorldGenerator
 
 		return y;
 	}
+	*/
 }
+	

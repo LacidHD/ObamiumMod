@@ -1,3 +1,4 @@
+/*
 package com.Lacid_HD.TestMod.energy;
 
 import net.minecraft.nbt.NBTTagCompound;
@@ -76,3 +77,4 @@ public class CustomEnergyStorage extends EnergyStorage
     }
     
 }
+*/

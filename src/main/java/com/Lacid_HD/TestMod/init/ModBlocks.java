@@ -11,7 +11,7 @@ import com.Lacid_HD.TestMod.blocks.MemeBlock;
 import com.Lacid_HD.TestMod.blocks.MemeOre;
 import com.Lacid_HD.TestMod.blocks.ObamiumBlock;
 import com.Lacid_HD.TestMod.blocks.ObamiumOre;
-import com.Lacid_HD.TestMod.blocks.machines.refinery.BlockRefinery;
+//import com.Lacid_HD.TestMod.blocks.machines.refinery.BlockRefinery;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -33,6 +33,6 @@ public class ModBlocks
 	
 	
 	//machines
-	public static final Block REFINERY = new BlockRefinery("refinery");
+	//public static final Block REFINERY = new BlockRefinery("refinery");
 	
 }	

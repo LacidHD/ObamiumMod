@@ -1,3 +1,4 @@
+/*
 package com.Lacid_HD.TestMod.world.gen;
 
 import java.util.Random;
@@ -44,3 +45,4 @@ public class WorldGenStructure extends ModWorldGen implements IStructure
 		}
 	}
 }
+*/

@@ -6,7 +6,7 @@ import com.Lacid_HD.TestMod.init.ModItems;
 import com.Lacid_HD.TestMod.util.compat.OreDictionaryCompat;
 import com.Lacid_HD.TestMod.util.interfaces.IHasModel;
 //import com.Lacid_HD.TestMod.world.gen.WorldGenCustomStructures;
-import com.Lacid_HD.TestMod.world.gen.smallhouseWorldGen;
+//import com.Lacid_HD.TestMod.world.gen.smallhouseWorldGen;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;

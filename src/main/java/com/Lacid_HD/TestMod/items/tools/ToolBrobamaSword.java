@@ -37,10 +37,5 @@ public class ToolBrobamaSword extends ItemSword implements IHasModel
 		
 	}
 	
-	public void addInformation(ItemStack stack, EntityPlayer player, List itemInformation, boolean par4)
-	{
-	itemInformation.add("F for fried PC");
-	}
-	
 	
 }

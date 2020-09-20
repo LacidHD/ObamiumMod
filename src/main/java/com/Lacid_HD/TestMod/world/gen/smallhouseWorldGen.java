@@ -1,4 +1,4 @@
-
+/*
 
 package com.Lacid_HD.TestMod.world.gen;
 
@@ -109,3 +109,4 @@ public class smallhouseWorldGen extends WorldGenerator implements IWorldGenerato
 	}
 
 }
+*/

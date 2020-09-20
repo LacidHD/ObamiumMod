@@ -1,3 +1,4 @@
+/*
 package com.Lacid_HD.TestMod.blocks.machines.refinery.slots;
 
 
@@ -15,11 +16,11 @@ public class SlotRefineryFuel extends Slot
 	
 
 
-	/*@Override
+	@Override
 	public boolean isItemValid(ItemStack stack) 
 	{
 		return TileEntityRefinery.isItemFuel(stack);
-	}*/
+	}
 	
 	@Override
 	public int getItemStackLimit(ItemStack stack) 
@@ -28,3 +29,4 @@ public class SlotRefineryFuel extends Slot
 	}
 	
 }
+*/
