@@ -61,7 +61,7 @@ public class ModItems
  public static final Item ROTOR = new ItemBaseElectricStuff("rotor");
  public static final Item STATOR = new ItemBaseElectricStuff("stator");
  public static final Item MACHINE_CASING = new ItemBaseElectricStuff("machine_casing");
- 
+ public static final Item COPPER_WIRE = new ItemBaseElectricStuff("copper_wire");
   
 
   
