@@ -47,7 +47,7 @@ public class ModWorldGen implements IWorldGenerator
 		}
 	}
 	
-	/*
+/*
 	public static boolean canSpawnHere(Template template, World world, BlockPos posAboveGround)
 	{
 		int zwidth = template.getSize().getZ();
