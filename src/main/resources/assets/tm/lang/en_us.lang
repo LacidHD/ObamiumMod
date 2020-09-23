@@ -24,29 +24,29 @@ tile.meme_block.name=Block of Memes
 tile.pure_meme_block.name=Refined Block of Memes
 
 //creative tabs
-itemGroup.tabobamium=Obamium Stuff
+itemGroup.tabobamiummaterials=Obamium Stuff
 itemGroup.tabobamiumta=Obamium Tools and Armor
 itemGroup.tabobamiumelectricstuff=Obamium Electrics and Machines(WIP)
 
 
 //tools
-item.obamium_sword.name=The almighty Obama-sword
-item.obamium_pickaxe.name=The almighty Obama-pickaxe
-item.obamium_axe.name=The almighty Obama-axe
-item.obamium_hoe.name=The almighty Obama-hoe
-item.obamium_shovel.name=The almighty Obama-shovel
+item.obamium_sword.name=The almighty Obamasword
+item.obamium_pickaxe.name=The almighty Obamapickaxe
+item.obamium_axe.name=The almighty Obamaaxe
+item.obamium_hoe.name=The almighty Obamahoe
+item.obamium_shovel.name=The almighty Obamashovel
 
-item.brobama_sword.name=The goddamn Brobama sword
+item.brobama_sword.name=Brobamas Sword
 item.walter.name=Walter
 item.blob_pickaxe.name=BlobPickaxe
 item.meme_axe.name=I dont have a name nor an Image send me suggestions pls
 item.meme_hoe.name=Jointstick
 
-item.copper_sword.name=Copper sword
-item.copper_pickaxe.name=Copper pickaxe
-item.copper_axe.name=Copper axe
-item.copper_hoe.name=Copper hoe
-item.copper_shovel.name=Copper shovel
+item.copper_sword.name=Copper Sword
+item.copper_pickaxe.name=Copper Pickaxe
+item.copper_axe.name=Copper Axe
+item.copper_hoe.name=Copper Hoe
+item.copper_shovel.name=Copper Shovel
 
 //armor
 item.obamium_helmet.name=The almighty Obama-helmet
@@ -58,6 +58,11 @@ item.memers_helmet.name=The Memers Helmet
 item.memers_chestplate.name=The Memers Chesplate
 item.memers_leggings.name=The Memers Leggings
 item.memers_boots.name=The Memers Boots
+
+item.copper_helmet.name=Copper Helmet
+item.copper_chestplate.name=Copper Chesplate
+item.copper_leggings.name=Copper Leggings
+item.copper_boots.name=Copper Boots
 
 //inventories
 container.refinery.name=Refinery

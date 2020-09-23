@@ -45,7 +45,7 @@ public class Main {
 		
 	}
 
-	public static CreativeTabs tabObamium = new CreativeTabs("tabobamium") {
+	public static CreativeTabs tabObamiumMaterials = new CreativeTabs("tabobamiummaterials") {
 		
 		public ItemStack getTabIconItem() {
 			return new ItemStack(ModItems.OBAMIUM);

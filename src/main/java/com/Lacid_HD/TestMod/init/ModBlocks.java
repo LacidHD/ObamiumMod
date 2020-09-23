@@ -1,10 +1,6 @@
 package com.Lacid_HD.TestMod.init;
 
 import java.util.ArrayList;
-
-
-
-
 import com.Lacid_HD.TestMod.blocks.BlockBase;
 import com.Lacid_HD.TestMod.blocks.CopperOre;
 import com.Lacid_HD.TestMod.blocks.MemeBlock;

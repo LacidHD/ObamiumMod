@@ -38,9 +38,12 @@ public class ModItems
   public static final ToolMaterial MATERIAL_OBAMIUM = EnumHelper.addToolMaterial("material_obamium", 3, 911, 20, 50, 10);
   public static final ToolMaterial MATERIAL_MEMES = EnumHelper.addToolMaterial("material_memes", 3, 690, 10, 20, 10);
   public static final ToolMaterial MATERIAL_COPPER = EnumHelper.addToolMaterial("material_copper", 2, 191, 5.0F, 2.0F, 3);
-  public static final ArmorMaterial ARMOR_MATERIAL_OBAMIUM = EnumHelper.addArmorMaterial("armor_material_obamium", Reference.MOD_ID + ":obamium", 25, new int[ ] {100, 150, 200, 100} , 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F);
-  public static final ArmorMaterial ARMOR_MATERIAL_MEMES = EnumHelper.addArmorMaterial("armor_material_memes", Reference.MOD_ID + ":memes", 25, new int[ ] {20, 150, 200, 100} , 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F);
-   
+  
+  public static final ArmorMaterial ARMOR_MATERIAL_OBAMIUM = EnumHelper.addArmorMaterial("armor_material_obamium", Reference.MOD_ID + ":obamium", 25, new int[ ] {45, 100, 75, 35} , 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F);
+  public static final ArmorMaterial ARMOR_MATERIAL_MEMES = EnumHelper.addArmorMaterial("armor_material_memes", Reference.MOD_ID + ":memes", 20, new int[ ] {25, 75, 50, 15} , 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
+  public static final ArmorMaterial ARMOR_MATERIAL_COPPER = EnumHelper.addArmorMaterial("armor_material_copper", Reference.MOD_ID + ":copper",  15, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
+ 
+  
   //Basic items
   public static final Item OBAMIUM = new ItemBaseStuff("obamium"); 
   public static final Item OBAMASPHERE = new ItemBaseStuff("obamasphere");
@@ -97,6 +100,12 @@ public class ModItems
   public static final Item MEMERS_CHESTPLATE = new ArmorBase("memers_chestplate", ARMOR_MATERIAL_MEMES, 1, EntityEquipmentSlot.CHEST);
   public static final Item MEMERS_LEGGINGS = new ArmorBase("memers_leggings", ARMOR_MATERIAL_MEMES, 2, EntityEquipmentSlot.LEGS);
   public static final Item MEMERS_BOOTS = new ArmorBase("memers_boots", ARMOR_MATERIAL_MEMES, 1, EntityEquipmentSlot.FEET);
+  
+  public static final Item COPPER_HELMET = new ArmorBase("copper_helmet", ARMOR_MATERIAL_COPPER, 1, EntityEquipmentSlot.HEAD);
+  public static final Item COPPER_CHESTPLATE = new ArmorBase("copper_chestplate", ARMOR_MATERIAL_COPPER, 1, EntityEquipmentSlot.CHEST);
+  public static final Item COPPER_LEGGINGS = new ArmorBase("copper_leggings", ARMOR_MATERIAL_COPPER, 2, EntityEquipmentSlot.LEGS);
+  public static final Item COPPER_BOOTS = new ArmorBase("copper_boots", ARMOR_MATERIAL_COPPER, 1, EntityEquipmentSlot.FEET);
+
   
   
 

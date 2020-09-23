@@ -13,7 +13,7 @@ public class ItemBaseStuff extends Item implements IHasModel{
 	{
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(Main.tabObamiumTA);
+		setCreativeTab(Main.tabObamiumMaterials);
 		
 		ModItems.ITEMS.add(this);
 	}
