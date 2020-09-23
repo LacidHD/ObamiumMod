@@ -4,7 +4,7 @@ import net.minecraft.block.SoundType;
 
 import net.minecraft.block.material.Material;
 
-public class MemeBlock extends BlockBase{
+public class MemeBlock extends BlockBaseMaterials{
 
 	public MemeBlock(String name, Material material)
 	{

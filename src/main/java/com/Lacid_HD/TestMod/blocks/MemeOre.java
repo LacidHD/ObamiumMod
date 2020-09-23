@@ -4,7 +4,7 @@ import net.minecraft.block.SoundType;
 
 import net.minecraft.block.material.Material;
 
-public class MemeOre extends BlockBase{
+public class MemeOre extends BlockBaseMaterials{
 
 	public MemeOre(String name, Material material)
 	{

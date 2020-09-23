@@ -1,7 +1,8 @@
 package com.Lacid_HD.TestMod.init;
 
 import java.util.ArrayList;
-import com.Lacid_HD.TestMod.blocks.BlockBase;
+import com.Lacid_HD.TestMod.blocks.BlockBaseMaterials;
+import com.Lacid_HD.TestMod.blocks.CopperBlock;
 import com.Lacid_HD.TestMod.blocks.CopperOre;
 import com.Lacid_HD.TestMod.blocks.MemeBlock;
 import com.Lacid_HD.TestMod.blocks.MemeOre;
@@ -25,7 +26,7 @@ public class ModBlocks
 	public static final Block MEME_BLOCK = new MemeBlock("meme_block", Material.GROUND);
 	public static final Block PURE_MEME_BLOCK = new MemeBlock("pure_meme_block", Material.GROUND);
 	public static final Block COPPER_ORE = new CopperOre("copper_ore", Material.GROUND);
-	
+	public static final Block COPPER_BLOCK = new CopperBlock("copper_block", Material.GROUND);
 	
 	
 	//machines

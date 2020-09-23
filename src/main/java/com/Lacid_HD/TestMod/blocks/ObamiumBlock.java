@@ -4,7 +4,7 @@ import net.minecraft.block.SoundType;
 
 import net.minecraft.block.material.Material;
 
-public class ObamiumBlock extends BlockBase 
+public class ObamiumBlock extends BlockBaseMaterials 
 {
 
 	public ObamiumBlock(String name, Material material)

@@ -5,6 +5,7 @@ item.obamafuel.name=Obamafuel(WIP)
 item.obamium_nugget.name=Nugget of Obamium
 item.meme_essence.name=Essence of Memes
 item.pure_essence.name=Refined Essence of Memes
+item.copper_ingot.name=Copper Ingot
 
 //electric shit
 item.electric_unit.name=Electric Unit
@@ -22,6 +23,7 @@ tile.obamium_ore.name=Ore of Obamium
 tile.meme_ore.name=Ore of Memes
 tile.meme_block.name=Block of Memes
 tile.pure_meme_block.name=Refined Block of Memes
+tile.copper_ore.name=Copper Ore
 
 //creative tabs
 itemGroup.tabobamiummaterials=Obamium Stuff
