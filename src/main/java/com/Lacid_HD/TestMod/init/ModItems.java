@@ -8,10 +8,12 @@ import com.Lacid_HD.TestMod.items.ItemBase;
 import com.Lacid_HD.TestMod.items.ItemBaseElectricStuff;
 import com.Lacid_HD.TestMod.items.ItemBaseStuff;
 import com.Lacid_HD.TestMod.items.armor.ArmorBase;
+import com.Lacid_HD.TestMod.items.tools.ToolObamiumAxe;
 import com.Lacid_HD.TestMod.items.tools.ToolAxe;
 import com.Lacid_HD.TestMod.items.tools.ToolBlobPickaxe;
 import com.Lacid_HD.TestMod.items.tools.ToolBrobamaSword;
 import com.Lacid_HD.TestMod.items.tools.ToolHoe;
+import com.Lacid_HD.TestMod.items.tools.ToolMemeAxe;
 import com.Lacid_HD.TestMod.items.tools.ToolPickaxe;
 import com.Lacid_HD.TestMod.items.tools.ToolSpade;
 import com.Lacid_HD.TestMod.items.tools.ToolSword;
@@ -73,13 +75,13 @@ public class ModItems
   public static final ItemSword OBAMIUM_SWORD = new ToolSword("obamium_sword", MATERIAL_OBAMIUM);
   public static final ItemSpade OBAMIUM_SHOVEL = new ToolSpade("obamium_shovel", MATERIAL_OBAMIUM);
   public static final ItemPickaxe OBAMIUM_PICKAXE = new ToolPickaxe("obamium_pickaxe", MATERIAL_OBAMIUM);
-  public static final ItemAxe OBAMIUM_AXE = new ToolAxe("obamium_axe", MATERIAL_OBAMIUM);
+  public static final ItemAxe OBAMIUM_AXE = new ToolObamiumAxe("obamium_axe", MATERIAL_OBAMIUM);
   public static final ItemHoe OBAMIUM_HOE = new ToolHoe("obamium_hoe", MATERIAL_OBAMIUM);
   
   public static final ItemSword BROBAMA_SWORD = new ToolBrobamaSword("brobama_sword", MATERIAL_MEMES);
   public static final ItemSpade WALTER = new ToolWalter("walter", MATERIAL_MEMES);
   public static final ItemPickaxe BLOB_PICKAXE = new ToolBlobPickaxe("blob_pickaxe", MATERIAL_MEMES);
-  public static final ItemAxe MEME_AXE = new ToolAxe("meme_axe", MATERIAL_MEMES);
+  public static final ItemAxe MEME_AXE = new ToolMemeAxe("meme_axe", MATERIAL_MEMES);
   public static final ItemHoe MEME_HOE = new ToolHoe("meme_hoe", MATERIAL_MEMES);
   
   public static final ItemSword COPPER_SWORD = new ToolSword("copper_sword", MATERIAL_COPPER);
