@@ -14,9 +14,10 @@ public class OreDictionaryCompat
 		
 		OreDictionary.registerOre("ingotCopper", ModItems.COPPER_INGOT);
 		OreDictionary.registerOre("oreCopper", ModBlocks.COPPER_ORE);
+		//OreDictionary.registerOre("copper_block", ModBlocks.COPPER_BLOCK);
 		
-		OreDictionary.registerOre("ingotMeme", ModItems.COPPER_INGOT);
-		OreDictionary.registerOre("oreMeme", ModBlocks.COPPER_ORE);
+		OreDictionary.registerOre("ingotMeme", ModItems.MEME_ESSENCE);
+		OreDictionary.registerOre("oreMeme", ModBlocks.MEME_ORE);
 		
 		
 	}
