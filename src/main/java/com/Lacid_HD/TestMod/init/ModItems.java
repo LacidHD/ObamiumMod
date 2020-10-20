@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.Lacid_HD.TestMod.items.ItemBase;
-import com.Lacid_HD.TestMod.items.ItemBaseElectricStuff;
 import com.Lacid_HD.TestMod.items.ItemBaseStuff;
 import com.Lacid_HD.TestMod.items.armor.ArmorBase;
 import com.Lacid_HD.TestMod.items.tools.ToolObamiumAxe;
@@ -54,19 +53,6 @@ public class ModItems
   public static final Item MEME_ESSENCE = new ItemBaseStuff("meme_essence");
   public static final Item PURE_ESSENCE = new ItemBaseStuff("pure_essence");
   public static final Item COPPER_INGOT = new ItemBaseStuff("copper_ingot");
-  
-  
-  
-  //electric stuff / machines
- public static final Item ELECTRIC_UNIT = new ItemBaseElectricStuff("electric_unit"); 
- public static final Item MAGNET = new ItemBaseElectricStuff("magnet");
- public static final Item COPPER_COIL = new ItemBaseElectricStuff("copper_coil");
- public static final Item ELECTRIC_MOTOR = new ItemBaseElectricStuff("electric_motor");
- public static final Item GENERATOR_UNIT = new ItemBaseElectricStuff("generator_unit");
- public static final Item ROTOR = new ItemBaseElectricStuff("rotor");
- public static final Item STATOR = new ItemBaseElectricStuff("stator");
- public static final Item MACHINE_CASING = new ItemBaseElectricStuff("machine_casing");
- public static final Item COPPER_WIRE = new ItemBaseElectricStuff("copper_wire");
   
 
   

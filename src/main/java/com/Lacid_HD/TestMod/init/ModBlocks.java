@@ -30,12 +30,5 @@ public class ModBlocks
 	public static final Block COPPER_BLOCK = new CopperBlock("copper_block", Material.GROUND);
 	
 	
-	//machines
-	//public static final Block REFINERY = new BlockRefinery("refinery");
-	
-	
-	
-	//energy
-	//public static final Block ENS_1 = new BlockENS("ens_1");
-	
+
 }	

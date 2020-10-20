@@ -48,20 +48,5 @@ public class ModWorldGen implements IWorldGenerator
 	}
 	
 
-/*
-	
-	public static int getGroundFromAbove(World world, int x, int z)
-	{
-		int y = 255;
-		boolean foundGround = false;
-		while(!foundGround && y-- >= 31)
-		{
-			Block blockAt = world.getBlockState(new BlockPos(x,y,z)).getBlock();
-			foundGround =  blockAt == Blocks.WATER||blockAt == Blocks.FLOWING_WATER||blockAt == Blocks.GRASS || blockAt == Blocks.SAND || blockAt == Blocks.SNOW || blockAt == Blocks.SNOW_LAYER || blockAt == Blocks.GLASS||blockAt == Blocks.MYCELIUM;
-		}
-
-		return y;
-	}
-	*/
 }
 	
