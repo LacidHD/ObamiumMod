@@ -60,6 +60,12 @@ shapeless recipe
       "item": "modid:object"
     }
     
+       "result":
+    {
+        "item": "modid:object",
+        "count": 1
+    }
+} 
  shaped recipe
  {
     "type": "minecraft:crafting_shaped",
