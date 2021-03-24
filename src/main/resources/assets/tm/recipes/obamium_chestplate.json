@@ -3,7 +3,7 @@
     
     "pattern":
     [
-        "O O",
+        "ONO",
         "OOO",
         "OOO"
     ],
@@ -15,6 +15,11 @@
         "O":
         {
             "item": "tm:obamium_block"
+        },
+        
+        "N":
+        {
+            "item": "minecraft:nether_star"
         }
     },
     

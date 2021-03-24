@@ -44,13 +44,6 @@ public class Main {
 	public static void Postinit(FMLPostInitializationEvent event) {
 		
 	}
-
-	public static CreativeTabs tabObamiumMaterials = new CreativeTabs("tabobamiummaterials") {
-		
-		public ItemStack getTabIconItem() {
-			return new ItemStack(ModItems.OBAMIUM);
-		}
-	};
 	
 		public static CreativeTabs tabObamiumTA = new CreativeTabs("tabobamiumta") {
 		

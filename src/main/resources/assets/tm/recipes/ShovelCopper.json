@@ -3,27 +3,29 @@
     
     "pattern":
     [
-        "MMM",
         " R ",
-        " R "
+        " S ",
+        " S "
     ],
     
     "key":
     {
-        "M":
+        "R":
         {
-            "item": "tm:pure_essence"
+            "item": "tm:copper_ingot"
         },
         
-        "R":
+        "S":
         {
             "item": "minecraft:stick"
         }
     },
     
+    
+    
     "result":
     {
-        "item": "tm:blob_pickaxe",
+        "item": "tm:copper_shovel",
         "count": 1
     }
 }

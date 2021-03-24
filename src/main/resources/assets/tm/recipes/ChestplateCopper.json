@@ -1,0 +1,24 @@
+ {
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "R R",
+        "RRR",
+        "RRR"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "tm:copper_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "tm:copper_chestplate",
+        "count": 1
+    }
+}

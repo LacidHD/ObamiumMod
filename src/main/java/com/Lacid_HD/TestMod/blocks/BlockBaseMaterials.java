@@ -18,7 +18,7 @@ public class BlockBaseMaterials extends Block implements IHasModel
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(Main.tabObamiumMaterials);
+		setCreativeTab(Main.tabObamiumTA);
 		
 		ModBlocks.BLOCKS.add(this);
 		ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));

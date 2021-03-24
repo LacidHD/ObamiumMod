@@ -3,27 +3,29 @@
     
     "pattern":
     [
-        "MMM",
-        " R ",
-        " R "
+        " R",
+        " S ",
+        " S "
     ],
     
     "key":
     {
-        "M":
+        "R":
         {
             "item": "tm:pure_essence"
         },
         
-        "R":
+        "S":
         {
             "item": "minecraft:stick"
         }
     },
     
+    
+    
     "result":
     {
-        "item": "tm:blob_pickaxe",
+        "item": "tm:walter",
         "count": 1
     }
 }
